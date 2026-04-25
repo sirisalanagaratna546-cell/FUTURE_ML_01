@@ -1,0 +1,47 @@
+{
+  "all_models": [
+    {
+      "model": "Linear Regression",
+      "MAE": 54331.76,
+      "RMSE": 71487.49,
+      "R2": 0.8094,
+      "MAPE": 6.36
+    },
+    {
+      "model": "Ridge Regression",
+      "MAE": 55610.0,
+      "RMSE": 72316.99,
+      "R2": 0.8049,
+      "MAPE": 6.53
+    },
+    {
+      "model": "Random Forest",
+      "MAE": 38360.88,
+      "RMSE": 55365.52,
+      "R2": 0.8857,
+      "MAPE": 4.35
+    },
+    {
+      "model": "Gradient Boosting",
+      "MAE": 36414.16,
+      "RMSE": 51715.06,
+      "R2": 0.9003,
+      "MAPE": 4.15
+    },
+    {
+      "model": "XGBoost",
+      "MAE": 39993.63,
+      "RMSE": 55004.52,
+      "R2": 0.8872,
+      "MAPE": 4.6
+    }
+  ],
+  "best_model": "Gradient Boosting",
+  "best_metrics": {
+    "model": "Gradient Boosting",
+    "MAE": 36414.16,
+    "RMSE": 51715.06,
+    "R2": 0.9003,
+    "MAPE": 4.15
+  }
+}
